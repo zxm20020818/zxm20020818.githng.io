@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            color: #007bff;
+        }
+        .section p {
+            margin: 10px 0;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .profile-photo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-photo img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skills span {
+            background-color: #e9ecef;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .experience, .education {
+            list-style: none;
+            padding: 0;
+        }
+        .experience li, .education li {
+            margin-bottom: 15px;
+        }
+        .experience li h3, .education li h3 {
+            margin: 0 0 5px;
+        }
+        .experience li p, .education li p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-photo">
+            <img src="your-photo.jpg" alt="Profile Photo">
+        </div>
+        <h1>个人简历</h1>
+        <div class="section">
+            <h2>个人信息</h2>
+            <div class="contact-info">
+                <p>姓名：[钟贤敏]</p>
+                <p>联系方式：<a href="tel:your-phone-number">[18942376038]</a></p>
+                <p>邮箱：<a href="mailto:your-email@example.com">[2337117827@qq.com]</a></p>
+            </div>
+        </div>
+        <div class="section">
+            <h2>个人简介</h2>
+            <p>我性格开朗，乐于接受新挑战，具备良好的沟通能力和抗压能力。未来，我希望能够在各大领域继续深耕，不断提升自己，为团队和公司创造更多价值。</p>
+        </div>
+        <div class="section">
+            <h2>教育背景</h2>
+            <ul class="education">
+                <li>
+                    <h3>江西农业大学</h3>
+                    <p>农业资源与环境 - 农学学士</p>
+                    <p>20201008 - 20240518</p>
+                </li>
+                <!-- 添加更多教育经历 -->
+            </ul>
+        </div>
+        <div class="section">
+            <h2>工作经验</h2>
+            <ul class="experience">
+                <li>
+                    <h3>江西省崇义县自然资源局</h3>
+                    <p>见习生</p>
+                    <p>20220701 - 20220831</p>
+                    <p>主要职责和成就：</p>
+                    <ul>
+                        <li>扫大街</li>
+                        <li>街道口处站岗</li>
+                        <li>获得了优秀见习生的称号</li>
+                    </ul>
+                </li>
+                <!-- 添加更多工作经历 -->
+            </ul>
+        </div>
+        <div class="section">
+            <h2>技能</h2>
+            <div class="skills">
+                <span>技能1通过了英语六级</span>
+                <span>技能2通过了计算机二级</span>
+                <span>技能3拿到了教师资格证</span>
+                <!-- 添加更多技能 -->
+            </div>
+        </div>
+        <div class="section">
+            <h2>证书与荣誉</h2>
+            <ul>
+                <li>教师资格证证书 - 教育部 - 20240630</li>
+                <li>英语六级证书 - 全国大学英语四、六级考试委员会 - 授予时间</li>
+                <!-- 添加更多证书与荣誉 -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
